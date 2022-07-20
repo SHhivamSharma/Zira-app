@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zira Ticket</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div class = "container">
+        <div class = "navbar">
+            <div class = "app-name">ZIRA</div>
+            <div class = "filter-container">
+                <div class = "filter">
+                    <span class = "red-btn"></span>
+                </div>
+                <div class = "filter">
+                    <span class = "orange-btn"></span>
+                </div>
+                <div class = "filter">
+                    <span class = "yellow-btn"></span>
+                </div>
+                <div class = "filter">
+                    <span class = "green-btn"></span>
+                </div>
+            </div>
+            <div class = "add-delete-container">
+                <div class="add">
+                    <span class="material-icons action-btn">add</span>
+                </div>
+                <div class="delete">
+                    <span class="material-icons action-btn">remove</span>
+                </div>
+            </div>
+        </div>
+        <div class = "ticket-container">
+            <!-- <div class = "modal">
+                <div class = "task-to-be-added" contenteditable></div>
+                <div class = "modal-priority-list">
+                    <div class = "modal-red-filter modal-filter"></div>
+                    <div class = "modal-orange-filter modal-filter"></div>
+                    <div class = "modal-yellow-filter modal-filter"></div>
+                    <div class = "modal-green-filter modal-filter"></div>
+                </div>
+            </div> -->
+            <!-- <div class = "ticket">
+                <div class = "ticket-color ticket-color-red"></div>
+                <div class = "ticket-id">123456</div>
+                <div class = "task">qwertyuiop</div>
+            </div> -->
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/short-unique-id@latest/dist/short-unique-id.min.js"></script>
+    <script>
+        var uid = new ShortUniqueId();
+    </script>
+    <script src = "script.js"></script>
+</body>
+</html>
